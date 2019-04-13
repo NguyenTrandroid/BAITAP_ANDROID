@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PlayingCard</string>
+    <string-array name="listHinh">
+        <item>mot</item>
+        <item>hai</item>
+        <item>ba</item>
+        <item>bon</item>
+        <item>nam</item>
+        <item>sau</item>
+        <item>bay</item>
+        <item>tam</item>
+        <item>chin</item>
+        <item>muoi</item>
+        <item>j</item>
+        <item>q</item>
+        <item>k</item>
+    </string-array>
+
+</resources>
