@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:onClick="thucan"
+        android:id="@+id/bt_thucan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="chọn thức ăn" />
+
+    <Button
+        android:onClick="douong"
+        android:id="@+id/douong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_thucan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="douong" />
+
+    <Button
+        android:id="@+id/thoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/douong"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Thoat" />
+
+    <TextView
+        android:id="@+id/tv_kq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thoat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Bún bò huế + Coca" />
+
+
+</LinearLayout>
